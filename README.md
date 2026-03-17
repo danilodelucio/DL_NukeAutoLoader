@@ -1,4 +1,4 @@
-<img width="700" height="152" alt="DL_NukeAutoLoader Logo" src="https://github.com/user-attachments/assets/8e3d329d-5986-4d9c-9ff3-81cb6f90891b" />
+<img width="1000" height="217" alt="DL_NukeAutoLoader Logo" src="https://github.com/user-attachments/assets/46e3b66c-101f-4554-8440-83a59c9c9a3e" />
 
 **Automatically loads gizmos, Nuke files (.nk/.nkind), and Python scripts into the Nuke toolbar.**
 
