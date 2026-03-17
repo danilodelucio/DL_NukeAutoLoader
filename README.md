@@ -1,4 +1,4 @@
-<img width="565" height="123" alt="DL_NukeAutoLoader Logo" src="https://github.com/user-attachments/assets/6fc96650-bd21-4153-8a81-439d05442c33" />
+<img width="700" height="152" alt="DL_NukeAutoLoader Logo" src="https://github.com/user-attachments/assets/8e3d329d-5986-4d9c-9ff3-81cb6f90891b" />
 
 **Automatically loads gizmos, Nuke files (.nk/.nkind), and Python scripts into the Nuke toolbar.**
 
@@ -9,15 +9,10 @@ Supports:
 - subfolders as categories.
 - multiple nested levels.
 
-<img width="544" height="653" alt="Screenshot 2026-03-18 005645" src="https://github.com/user-attachments/assets/6f1a3092-6264-4ca3-97f7-1a5d69997974" />
+<img width="907" height="653" alt="folder and tool" src="https://github.com/user-attachments/assets/253bd886-10f9-4e95-978f-1e22c270045a" />
 
-1. Download the folder DL_NukeAutoLoader
-2. Place it anywhere on your system
-3. Add this line to your .nuke/init.py:
-
-   nuke.pluginAddPath("C:/path/to/DL_NukeAutoLoader")
-
-4. Restart Nuke
+# ☢️ Compatibility
+**DL_NukeAutoLoader** was created and tested in Nuke 12.1v5 (Python 2.7.16), and Nuke Indie 16.0v7 (Python 3.11.7), so it's designed to work with all versions of Nuke.
 
 # ⚙️ How to Install
 
@@ -37,14 +32,20 @@ For better convenience, I suggest renaming the folder by removing the "**-main**
 
 <img width="607" height="365" alt="image" src="https://github.com/user-attachments/assets/5a055201-4cbd-4c28-be4d-07c2f6729fea" /><br>
 
-Open Nuke and you should see the **DL_NukeAutoLoader** icon appear in the toolbar.<br>
+</details>
 
-<img width="173" height="342" alt="image" src="https://github.com/user-attachments/assets/939a4ec4-e2c6-431a-a8d1-35669e448073" />
+<details>
+  <summary>2. Nuke Setup</summary>
+   <br>
+
+Open your `.nuke/init.py` file in a text editor. Paste the line below and update the directory to the location where you saved the `DL_NukeAutoLoader` folder.
+
+`nuke.pluginAddPath("C:/path/to/DL_NukeAutoLoader")`
 
 </details>
 
 <details>
-  <summary>2. Custom Folder Setup</summary>
+  <summary>3. Custom Folder Setup</summary>
    <br>
    
 Open the `custom_path.json` file and add the directory where all the tools (gizmos, NK files or Python scripts) reside.<br>
@@ -53,6 +54,10 @@ Open the `custom_path.json` file and add the directory where all the tools (gizm
 
 
 <img width="404" height="97" alt="image" src="https://github.com/user-attachments/assets/459e89ef-313a-4c9a-84fd-fb32b05b4aa2" /><br>
+
+Open Nuke and you should see the **DL_NukeAutoLoader** icon appear in the toolbar.<br>
+
+<img width="173" height="342" alt="image" src="https://github.com/user-attachments/assets/939a4ec4-e2c6-431a-a8d1-35669e448073" />
 
 </details>
 
